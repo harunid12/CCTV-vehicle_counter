@@ -61,9 +61,9 @@ cd vehicle-counting-yolov8
 pip install torch torchvision torchaudio
 pip install opencv-python ultralytics
 
----
-
+```
 ## 🚀 Cara Menjalankan
+
 ```
 python stream_detection.py
 
