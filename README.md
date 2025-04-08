@@ -10,7 +10,7 @@ Sistem ini memanfaatkan model deteksi objek **YOLOv8** untuk mengenali kendaraan
 
 ## 📌 Fitur Utama
 
-- Deteksi dan penghitungan kendaraan secara real-time dari stream CCTV berbasis HLS
+- Deteksi dan penghitungan kendaraan secara real-time dari stream CCTV
 - Fokus pada jenis kendaraan tertentu: **mobil (car)**, **truk (truck)**, dan **bus**
 - Menggunakan model **YOLOv8 varian large (YOLOv8l)** secara default
 - Mendukung pemrosesan di **CPU maupun GPU (jika tersedia)**
