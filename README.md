@@ -3,12 +3,15 @@
 Proyek ini merupakan sistem pendeteksian dan penghitungan kendaraan secara **real-time** dari siaran langsung CCTV arus lalu lintas milik **Kementerian Perhubungan Republik Indonesia (Kemenhub)**.  
 Sistem ini memanfaatkan model deteksi objek **YOLOv8** untuk mengenali kendaraan tertentu yang melintasi garis virtual dalam frame video, lalu menghitungnya secara otomatis.
 
+![Tampilan Deteksi dan Penghitungan](assets/stream_vehicle_counter.jpg)
+
+
 ---
 
 ## 📌 Fitur Utama
 
 - Deteksi dan penghitungan kendaraan secara real-time dari stream CCTV berbasis HLS
-- Fokus pada jenis kendaraan tertentu: **mobil (car)**, **truk (truck)**, **bus**, dan **motor**
+- Fokus pada jenis kendaraan tertentu: **mobil (car)**, **truk (truck)**, dan **bus**
 - Menggunakan model **YOLOv8 varian large (YOLOv8l)** secara default
 - Mendukung pemrosesan di **CPU maupun GPU (jika tersedia)**
 - Visualisasi bounding box dan perhitungan langsung di layar
@@ -34,8 +37,7 @@ Namun, pengguna dapat memilih varian model lain sesuai kebutuhan perangkat dan p
 
 Sumber stream default yang digunakan berasal dari Kemenhub: https://mitradarat-vidstream.kemenhub.go.id//stream//KM160AKM160A//stream.m3u8
 
-
-> URL ini bisa diganti dengan stream lain (RTSP/HLS lokal atau private CCTV) sesuai kebutuhan.
+jika ingin mengganti url dengan tampilan cctv lainnya, bisa diganti dengan mencari url disini : https://mudik.kemenhub.go.id/cctv
 
 ---
 
@@ -52,10 +54,28 @@ Sumber stream default yang digunakan berasal dari Kemenhub: https://mitradarat-v
 
 ```bash
 # Clone repositori
-git clone https://github.com/namakamu/vehicle-counting-yolov8.git
+git clone https://github.com/harunid12/CCTV-vehicle_counter.git
 cd vehicle-counting-yolov8
 
 # Install dependensi
 pip install torch torchvision torchaudio
 pip install opencv-python ultralytics
+
+---
+
+## 🚀 Cara Menjalankan
+
+```bash
+python stream_detection.py
+
+
+## Kontak
+
+Jika ada pertanyaan atau saran, hubungi : [ahmadharun.jambi@gmail.com](mailto:ahmadharun.jambi@gmail.com)
+
+
+
+
+
+
 
