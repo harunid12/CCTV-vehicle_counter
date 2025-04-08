@@ -52,7 +52,7 @@ jika ingin mengganti url dengan tampilan cctv lainnya, bisa diganti dengan menca
 
 ## 📦 Instalasi
 
-```bash
+```
 # Clone repositori
 git clone https://github.com/harunid12/CCTV-vehicle_counter.git
 cd vehicle-counting-yolov8
@@ -64,9 +64,9 @@ pip install opencv-python ultralytics
 ---
 
 ## 🚀 Cara Menjalankan
-
-```bash
+```
 python stream_detection.py
+
 
 
 ## Kontak
